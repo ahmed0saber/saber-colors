@@ -8,6 +8,12 @@ You can install the library using npm:
 
 `npm i saber-colors`
 
+## CDN
+
+You can also use the library via CDN by adding the following code to your html file:
+
+`<script src="https://cdn.statically.io/gh/ahmed0saber/saber-colors/main/dist/saber-colors.min.js"></script>`
+
 ## API
 
 ### `isHex(color)`
