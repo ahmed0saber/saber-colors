@@ -14,6 +14,10 @@ You can also use the library via CDN by adding the following code to your html f
 
 `<script src="https://cdn.statically.io/gh/ahmed0saber/saber-colors/main/dist/saber-colors.min.js"></script>`
 
+and using our API through the `SaberColors` object, such as the following example:
+
+`SaberColors.isHex('ff0000')`
+
 ## API
 
 ### `isHex(color)`
