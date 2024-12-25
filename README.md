@@ -136,7 +136,7 @@ To run the tests for this library, use the following command:
 
 To build this library into vanilla JS, use the following command:
 
-`npx webpack --config webpack.config.cjs`
+`npm run build`
 
 ## License
 
