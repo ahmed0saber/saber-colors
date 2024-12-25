@@ -6,6 +6,9 @@ import getRelativeLuminance from './utils/getRelativeLuminance.js';
 import getContrastRatio from './utils/getContrastRatio.js';
 import getAccessibilityStatusByColors from './utils/getAccessibilityStatusByColors.js';
 import getAccessibilityStatusByContrastRatio from './utils/getAccessibilityStatusByContrastRatio.js';
+import getRandomHexColor from './utils/getRandomHexColor.js';
+import getRandomRgbColorArray from './utils/getRandomRgbColorArray.js';
+import isRgb from './utils/isRgb.js';
 
 export {
     isHex,
@@ -15,5 +18,8 @@ export {
     getRelativeLuminance,
     getContrastRatio,
     getAccessibilityStatusByColors,
-    getAccessibilityStatusByContrastRatio
+    getAccessibilityStatusByContrastRatio,
+    getRandomHexColor,
+    getRandomRgbColorArray,
+    isRgb,
 };

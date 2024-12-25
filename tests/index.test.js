@@ -34,4 +34,16 @@ describe('Functions are correctly imported', () => {
         const accessibilityStatus = Utils.getAccessibilityStatusByContrastRatio(1.5);
         expect(accessibilityStatus.graphicalUserInterface).toBe(false);
     });
+
+    test('getRandomHexColor Function', () => {
+        expect(typeof Utils.getRandomHexColor()).toBe("string");
+    });
+
+    test('getRandomRgbColorArray Function', () => {
+        expect(typeof Utils.getRandomRgbColorArray()).toBe("object");
+    });
+
+    test('isRgb Function', () => {
+        expect(Utils.isRgb([200, 100, 200])).toBe(true);
+    });
 });

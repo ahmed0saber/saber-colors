@@ -102,6 +102,30 @@ Checks if a given contrast ratio meets accessibility standards.
 **Returns:**
 - `object`: An object with accessibility results for graphical user interface, large text, and normal text.
 
+### `getRandomHexColor()`
+
+Returns a randomly generated Hex color.
+
+**Returns:**
+- `string`: The Hex color.
+
+### `getRandomRgbColorArray()`
+
+Returns a randomly generated RGB color.
+
+**Returns:**
+- `array`: The RGB color array.
+
+### `isRgb(rgbArray)`
+
+Checks if a given array is a valid RGB color.
+
+**Parameters:**
+- `rgbArray` (array): The RGB color array to check.
+
+**Returns:**
+- `boolean`: `true` if the array is a valid RGB color, `false` otherwise.
+
 ## Tests
 
 To run the tests for this library, use the following command:
