@@ -138,6 +138,30 @@ To build this library into vanilla JS, use the following command:
 
 `npm run build`
 
+## Contributing
+
+Contributions are welcome! If you would like to contribute to saber-colors.js, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes.
+4. Write test cases if possible.
+4. Run the test suites and modify your code if anyone failed till all test suites succeed.
+5. Commit your changes
+6. Push your changes to your fork.
+7. Submit a pull request to the main repository.
+
+If you don't have any idea about what to contribute with, here are some ideas:
+
+- **Feature Requests**: Suggest new features on the `issues` page.
+- **Bug Reports**: Report errors or bugs on the `issues` page.
+- **Issue Resolution**: Address validated issues from the `issues` page.
+- **Code Updates and Refactoring**: Refactor code or make updates to enhance the project.
+- **Documentation**: Help improve the project's documentation, including the `README.md` file.
+- **Add Test Cases**: Add more test cases that can help keep the code quality high over time.
+
+For more detailed guidance on contributing to open source projects, check out this YouTube playlist: [Contributing to Open Source Projects (in Arabic)](https://youtube.com/playlist?list=PLNknCqb-phEjNHT607vp-4e4o3wgK9SoN).
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
