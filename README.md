@@ -81,7 +81,7 @@ Calculates the contrast ratio between two colors.
 **Returns:**
 - `number`: The contrast ratio.
 
-### `isAccessibleByColors(color1, color2)`
+### `getAccessibilityStatusByColors(color1, color2)`
 
 Checks if the contrast ratio between two colors meets accessibility standards.
 
@@ -92,7 +92,7 @@ Checks if the contrast ratio between two colors meets accessibility standards.
 **Returns:**
 - `object`: An object with accessibility results for graphical user interface, large text, and normal text.
 
-### `isAccessibleByContrastRatio(contrastRatio)`
+### `getAccessibilityStatusByContrastRatio(contrastRatio)`
 
 Checks if a given contrast ratio meets accessibility standards.
 

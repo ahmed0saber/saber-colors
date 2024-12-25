@@ -25,13 +25,13 @@ describe('Functions are correctly imported', () => {
         expect(Utils.getContrastRatio('#ff0000', '#00ff00')).toBe(2.91);
     });
 
-    test('isAccessibleByColors Function', () => {
-        const accessibilityForTwoColors = Utils.isAccessibleByColors('#ff0000', '#00ff00');
-        expect(accessibilityForTwoColors.graphicalUserInterface).toBe(false);
+    test('getAccessibilityStatusByColors Function', () => {
+        const accessibilityStatus = Utils.getAccessibilityStatusByColors('#ff0000', '#00ff00');
+        expect(accessibilityStatus.graphicalUserInterface).toBe(false);
     });
 
-    test('isAccessibleByContrastRatio Function', () => {
-        const accessibilityForLowContrastRatio = Utils.isAccessibleByContrastRatio(1.5);
-        expect(accessibilityForLowContrastRatio.graphicalUserInterface).toBe(false);
+    test('getAccessibilityStatusByContrastRatio Function', () => {
+        const accessibilityStatus = Utils.getAccessibilityStatusByContrastRatio(1.5);
+        expect(accessibilityStatus.graphicalUserInterface).toBe(false);
     });
 });

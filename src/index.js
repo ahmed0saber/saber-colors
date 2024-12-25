@@ -4,8 +4,8 @@ import convertRgbArrayToHex from './utils/convertRgbArrayToHex.js';
 import convertHexToRgbArray from './utils/convertHexToRgbArray.js';
 import getRelativeLuminance from './utils/getRelativeLuminance.js';
 import getContrastRatio from './utils/getContrastRatio.js';
-import isAccessibleByColors from './utils/isAccessibleByColors.js';
-import isAccessibleByContrastRatio from './utils/isAccessibleByContrastRatio.js';
+import getAccessibilityStatusByColors from './utils/getAccessibilityStatusByColors.js';
+import getAccessibilityStatusByContrastRatio from './utils/getAccessibilityStatusByContrastRatio.js';
 
 export {
     isHex,
@@ -14,6 +14,6 @@ export {
     convertHexToRgbArray,
     getRelativeLuminance,
     getContrastRatio,
-    isAccessibleByColors,
-    isAccessibleByContrastRatio
+    getAccessibilityStatusByColors,
+    getAccessibilityStatusByContrastRatio
 };

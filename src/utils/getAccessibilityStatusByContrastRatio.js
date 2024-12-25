@@ -1,4 +1,4 @@
-const isAccessibleByContrastRatio = (contrastRatio) => ({
+const getAccessibilityStatusByContrastRatio = (contrastRatio) => ({
     graphicalUserInterface: contrastRatio >= 3,
     largeText: {
         AA: contrastRatio >= 3,
@@ -10,4 +10,4 @@ const isAccessibleByContrastRatio = (contrastRatio) => ({
     }
 });
 
-export default isAccessibleByContrastRatio;
+export default getAccessibilityStatusByContrastRatio;
